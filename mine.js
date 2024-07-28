@@ -26,7 +26,7 @@ const winAmount = document.getElementById("winamount");
 const Stopgame = document.getElementById("stop");
 
 const open = () => {
-  window.open("file:///C:/Users/ps206/Desktop/Mine_game/amount.html");
+  window.open("./index.html");
 };
 
 if (randomNumber < 1) {
