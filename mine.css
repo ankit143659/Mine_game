@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(4, 50, 50);
+    color: yellow;
+
+}
+h1{
+    margin-top: 2rem;
+    margin-left: 38rem;
+}
+
+main{
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 80%;
+    width: 700px;
+    justify-content: start;
+    align-items: start;
+    padding: 20px;
+    gap: 1rem;
+    display: flex;
+    margin-left: 24rem;
+    flex-wrap: wrap;
+}
+
+.box{
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1 rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    background-color: rgb(240, 238, 235);
+    height: 18vmin;
+    width: 18vmin;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.hide{
+    display: none;
+}
+
+p{
+    font-size: 30px;
+    margin-left: 34rem;
+    margin-bottom: 1rem;
+}
+#withdraw{
+    margin-left: 34rem;
+    height: 2.5rem;
+    text-align: center;
+    width: 8rem;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: black;
+    color: yellow;
+}
+#again{
+    margin-left: 34rem;
+    height: 2.5rem;
+    text-align: center;
+    width: 8rem;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: black;
+    color: yellow;
+}
+
+#stop{
+    margin-left: 34rem;
+    height: 2.5rem;
+    text-align: center;
+    width: 8rem;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    background-color: black;
+    color: yellow;
+}
