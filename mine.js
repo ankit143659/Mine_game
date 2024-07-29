@@ -61,6 +61,7 @@ button.forEach((buttons) => {
       winning.textContent = `Withdrawl Amount = 0`;
       Amount.textContent = `Amount = 0`;
       playAgainbtn.classList.remove("hide");
+      Stopgame.classList.add("hide")
       playAgainbtn.addEventListener("click", () => {
         open();
       });

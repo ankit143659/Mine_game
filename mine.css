@@ -93,3 +93,19 @@ p{
     background-color: black;
     color: yellow;
 }
+
+@media(min-width:320px){
+    body{
+        width:98%;
+    }
+    .container{
+        margin-left: 9rem;
+        width: 80%;
+    }
+    h1{
+        margin-left: 12rem;
+    }
+    p{
+        margin-left: 12rem;
+    }
+}
