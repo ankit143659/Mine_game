@@ -8,11 +8,11 @@ Amount.textContent = `Amount = ${amount}`;
 
 let randomNumber = 0;
 if (amount < 500) {
-  randomNumber = Math.floor(Math.random() * 12);
+  randomNumber = Math.floor(Math.random() * 17);
 } else if (amount >= 500 && amount <= 800) {
-  randomNumber = Math.floor(Math.random() * 4);
+  randomNumber = Math.floor(Math.random() * 11);
 } else {
-  randomNumber = Math.floor(Math.random() * 3);
+  randomNumber = Math.floor(Math.random() * 7);
 }
 
 let numberValue = 0;
@@ -24,6 +24,7 @@ const withdrawbtn = document.getElementById("withdraw");
 const playAgainbtn = document.getElementById("again");
 const winAmount = document.getElementById("winamount");
 const Stopgame = document.getElementById("stop");
+
 
 const open = () => {
   window.open("./index.html");
@@ -70,7 +71,7 @@ button.forEach((buttons) => {
     } else {
       buttons.classList.add("green");
       Stopgame.classList.remove("hide");
-      winningAmount = winningAmount * 1.2;
+      winningAmount =Math.floor(winningAmount * 1.2);
       buttons.disabled = true;
       winning.textContent = `Withdrawl Amount = ${winningAmount}`;
       Stopgame.addEventListener("click", () => {
