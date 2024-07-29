@@ -109,3 +109,19 @@ p{
         margin-left: 12rem;
     }
 }
+
+@media(min-width:2500px){
+    body{
+        width:70%;
+    }
+    .container{
+        margin-left: 34rem;
+        width: 60%;
+    }
+    h1{
+        margin-left: 34rem;
+    }
+    p{
+        margin-left: 37rem;
+    }
+}
